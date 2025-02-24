@@ -52,7 +52,7 @@ const ProductForm: React.FC = () => {
                 onChange={(e) => setName(e.target.value)}
                 className="mb-2 border p-2"
                 required
-            />
+            /> 
             <input
                 type="number"
                 placeholder="Price"

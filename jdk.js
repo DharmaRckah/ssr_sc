@@ -128,3 +128,10 @@ export const deleteProduct = async (req, res) => {
         res.status(500).json({ success: false, message: error.message });
     }
 };
+
+
+// MONGO_URI = mongodb://localhost:27017/ssr
+// PORT = 5000
+// CLOUDINARY_CLOUD_NAME = dbj0krgh9
+// CLOUDINARY_API_KEY = 826341769266675
+// CLOUDINARY_API_SECRET= a7wD3lkle-zQKk3H0GMmbd9UU1A
