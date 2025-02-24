@@ -1,14 +1,13 @@
+import CreateProduct from "./components/CreateProduct";
+import ProductList from "./components/ProductList";
 
-import './App.css'
-import Home from './pages/Home'
-
-function App() {
- 
-  return (
-  <div>
-     <Home/>
-  </div>
-  )
+export default function App() {
+    return (
+      <div className="container mx-auto p-4">
+      <h1 className="text-3xl font-bold underline mb-4">Product Management</h1>
+      <CreateProduct/>
+      <ProductList /> 
+    </div>
+    );
 }
 
-export default App
