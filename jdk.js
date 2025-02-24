@@ -129,4 +129,4 @@ export const deleteProduct = async (req, res) => {
     }
 };
 
-
+mongodb+srv://dprajapati15302:dprajapati15302@cluster0.8shnm.mongodb.net/ssr
