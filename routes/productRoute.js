@@ -12,3 +12,4 @@ productRoute.get('/:id', getSingleProductController);
 
 
 export default productRoute;
+
